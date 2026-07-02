@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 1"
-date: 2026-06-26
+date: 2026-04-24
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
@@ -8,7 +8,7 @@ pre: " <b> 1.1. </b> "
 ### Mục tiêu tuần 1:
 
 * Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Khám phá dịch vụ AWS, hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |

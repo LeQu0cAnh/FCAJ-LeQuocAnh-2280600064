@@ -1,126 +1,121 @@
 ---
 title: "Event 1"
-date: 2026-06-26
+date: 2026-05-09
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Summary Report: “FCAJ Community Day: Meet up”
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- Encourage young people to confidently share new knowledge, practice presentation skills, and improve public speaking confidence.
+- Share effective learning methods and how to use Dopamine to turn learning into a fun habit.
+- Enhance AI communication skills through Prompt Engineering and introduce automation tools in software development.
+- Provide real-world enterprise perspectives on professional mindset, integrity, and long-term career orientation for Freshers.
 
 ### Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Huynh Hoang Long** - Admin of FCAJ
+- **Nguyen Tuan Thinh** - DevOps/Cloud Engineer FCAJ
+- **Nguyen Duy Khang** - Solution Architect of Cloud Kinetics
+- **Nguyen Phuong Thao** - Application Cloud Dev of VIB, FCJ Ambassador
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### Communicating with AI techniques
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+- Provide **clear prompts** → AI avoids generating poor-quality results or hallucinations.
+- Write **detailed prompts**, avoid general prohibition commands → narrow the scope and focus on necessary content.
 
-#### Transitioning to modern application architecture – Microservices
+#### 7 components of a standard Prompt
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+- The components of a standard prompt include:
++ **Role**
++ **Instruction**
++ **Context**
++ **Input**
++ **Output format**
++ **Example**
++ **Constraint**
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+#### Understanding Tokens and advanced techniques
+ 
+- Different languages consume different token amounts (Vietnamese costs twice as much as English).
+- Leverage AI reasoning techniques like Chain of Thought (step-by-step thinking) or Tree of Thought for optimal results.
 
-#### Domain-Driven Design (DDD)
+#### Real-world AWS project architecture
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+- Apply a **Serverless** system with core services like CloudFront, S3 (frontend storage/data lake), Cognito (user authentication), API Gateway, Lambda (serverless backend requiring no server management), Bedrock (AI Foundation Model integration), and DynamoDB.
 
-#### Event-Driven Architecture
+#### Mindset and Orientation
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+- **Foundations are immutable**: Tools change every day, but what employers look for is a solid thought process and foundational knowledge to solve problems.
+- **AI is an amplification tool**: AI does not replace thinking. If you do poorly, AI makes it worse; if you do well, AI multiplies productivity x2, x10. Never "outsource" your own understanding to AI.
+- **The "Why" culture**: Always question the reasons behind technology choices or code implementations rather than just focusing on "what to do".
 
-#### Compute Evolution
+#### Integrity and Attitude
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+- **At work**: Work with integrity, proactively dig into edge cases even when not requested.
+- **For employers**: The priority criteria for a Fresher are Attitude, followed by Qualifications/Education, Experience, and Aptitude.
 
 ### Key Takeaways
 
 #### Design Mindset
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+- **Foundation-first approach**: Always start with foundational knowledge and thought processes instead of chasing flashy services or tools.
+- **The "Why" culture**: Question the reasoning behind every technology or system architecture decision, not just stopping at making the code work.
+- **Integrity**: Proactively manage and handle edge cases even if they aren't in the original requirements, showing a long-term working attitude.  
 
 #### Technical Architecture
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+- **Ultimate Prompt Engineering**: Master the 7 components structure (Role, Instruction, Context, Input, Output, Example, Constraint) to communicate accurately with AI and minimize hallucinations.
+- Use **Serverless Architecture** instead of self-managing servers with EC2.
+- **Integration patterns**: Seamlessly integrate data flows through services like CloudFront, S3, Cognito, API Gateway, Lambda, and DynamoDB to build real-world web systems.
+- **Advanced AI Reasoning**: Understand and use AI reasoning techniques like Chain of Thought or Tree of Thought to optimize output quality.
 
-#### Modernization Strategy
+#### AI Utilization & Development Strategy
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+- **AI Amplification**: Treat AI as a tool to amplify productivity x2, x10, but absolutely do not delegate your core thinking to it.
+- **Phased approach for career**: Take a long-term view, be willing to experience and accept mistakes to grow faster.
+- **Multi-dimensional valuation**: Evaluate job value through Experience, Network, and Knowledge rather than just focusing on salary.
 
 ### Applying to Work
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- **Apply Ultimate Prompting** for current projects: Set context and break down tasks for AI to generate code or write documents accurately, avoiding overlapping information.
+- **Refactor cloud architecture**: Pilot Serverless services (like AWS Lambda, API Gateway) to minimize infrastructure management effort for small projects.
+- **Implement Integrity**: Proactively outline and handle 20-30 additional edge cases instead of just meeting the 10 core assigned requirements.
+- **Try AI Extensions**: Install and use AI extensions (e.g., Promptizer) directly on the browser to quickly optimize prompts and enhance daily productivity.
+- **Build a network**: Focus on teamwork and proactively ask more questions to practice communication skills; avoid "going solo" in projects.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Attending the **“FCAJ Community Day”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
 
 #### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+- Speakers (like Mr. Khang from Cloud Kinetics) shared best practices in working mindset, helping me understand that businesses need a "thought process" rather than someone who merely uses tools mindlessly.
+- Through real-world sharing, I better understood how employers evaluate a Fresher: Attitude is always the top priority, followed by Qualifications and Experience.
 
 #### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+- Participating in Mr. Thinh's session helped me visualize how to design a practical Serverless architecture, from storage with S3 to user management with Cognito and logic processing with Lambda.
+- Learned how to structure a standard 7-component prompt and avoid AI hallucinations by breaking down context.
+- Understood the trade-offs between Serverless (Lambda) and traditional compute (like EC2) when starting to design a backend.
 
 #### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+- Directly explored AI browser extensions, tools that support rapid prompt generation and optimization.
+- Learned how to **automate** and **boost productivity** by leveraging AI as an amplification lever while retaining core understanding.
 
 #### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+- The event created opportunities for open exchange with the community, practicing a confident attitude when sharing knowledge and building a network.
+- Through the stories told, I realized the importance of the **foundation-first approach**, always starting from foundational knowledge rather than just focusing on chasing new services.
 
 #### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+- Applying the "Why" culture and integrity helps me increase proactiveness and deep problem-solving abilities when facing real software architectures.
+- Career orientation requires a long-term vision and prioritizing the cultivation of experiences; one shouldn't give up hastily when encountering short-term difficulties.
+- AI tools can boost productivity significantly if used correctly, but they absolutely must not replace one's own critical thinking.
 
 #### Some event photos
-*Add your event photos here*  
+![event photo](/images/event0905.jpg)
 
 > Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.

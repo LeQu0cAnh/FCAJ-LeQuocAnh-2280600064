@@ -1,122 +1,150 @@
 ---
-title: "Blog 3"
-date: 2026-06-26
-weight: 1
+title: "Creating 3D Models by Using AI to Convert 2D Images into 3D Assets (AWS)"
+date: 2026-06-20
+weight: 3
 chapter: false
 pre: " <b> 3.3. </b> "
 ---
-# Getting Started with Healthcare Data Lakes: Using Microservices
 
-Data lakes can help hospitals and healthcare facilities turn data into business insights, maintain business continuity, and protect patient privacy. A **data lake** is a centralized, managed, and secure repository to store all your data, both in its raw and processed forms for analysis. Data lakes allow you to break down data silos and combine different types of analytics to gain insights and make better business decisions.
+# Creating 3D Assets from 2D Images Using AI on AWS
 
-This blog post is part of a larger series on getting started with setting up a healthcare data lake. In my final post of the series, *“Getting Started with Healthcare Data Lakes: Diving into Amazon Cognito”*, I focused on the specifics of using Amazon Cognito and Attribute Based Access Control (ABAC) to authenticate and authorize users in the healthcare data lake solution. In this blog, I detail how the solution evolved at a foundational level, including the design decisions I made and the additional features used. You can access the code samples for the solution in this Git repo for reference.
+The rapid advancement of Generative AI has introduced new possibilities in game development and 3D content creation. Instead of modeling 3D objects manually, developers can now leverage AI models to transform a single 2D concept image into a textured 3D asset within minutes.
 
----
-
-## Architecture Guidance
-
-The main change since the last presentation of the overall architecture is the decomposition of a single service into a set of smaller services to improve maintainability and flexibility. Integrating a large volume of diverse healthcare data often requires specialized connectors for each format; by keeping them encapsulated separately as microservices, we can add, remove, and modify each connector without affecting the others. The microservices are loosely coupled via publish/subscribe messaging centered in what I call the “pub/sub hub.”
-
-This solution represents what I would consider another reasonable sprint iteration from my last post. The scope is still limited to the ingestion and basic parsing of **HL7v2 messages** formatted in **Encoding Rules 7 (ER7)** through a REST interface.
-
-**The solution architecture is now as follows:**
-
-> *Figure 1. Overall architecture; colored boxes represent distinct services.*
+In this blog, we explore an AWS-based workflow that combines two open-source AI models—**TripoSG** and **MV-Adapter**—to generate textured 3D models from 2D concept images.
 
 ---
 
-While the term *microservices* has some inherent ambiguity, certain traits are common:  
-- Small, autonomous, loosely coupled  
-- Reusable, communicating through well-defined interfaces  
-- Specialized to do one thing well  
-- Often implemented in an **event-driven architecture**
+# Solution Architecture
 
-When determining where to draw boundaries between microservices, consider:  
-- **Intrinsic**: technology used, performance, reliability, scalability  
-- **Extrinsic**: dependent functionality, rate of change, reusability  
-- **Human**: team ownership, managing *cognitive load*
+The proposed solution is divided into two processing stages to balance GPU performance and operational cost.
 
----
+**Amazon S3** serves as the central storage service for input images, intermediate files, and the final 3D assets in **GLB** format.
 
-## Technology Choices and Communication Scope
+The overall workflow consists of the following steps:
 
-| Communication scope                       | Technologies / patterns to consider                                                        |
-| ----------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Within a single microservice              | Amazon Simple Queue Service (Amazon SQS), AWS Step Functions                               |
-| Between microservices in a single service | AWS CloudFormation cross-stack references, Amazon Simple Notification Service (Amazon SNS) |
-| Between services                          | Amazon EventBridge, AWS Cloud Map, Amazon API Gateway                                      |
+1. Upload a 2D concept image to Amazon S3.
+2. Generate the 3D mesh using TripoSG on an Amazon EC2 GPU instance.
+3. Store the generated mesh back in Amazon S3.
+4. Apply textures using MV-Adapter on another GPU-enabled EC2 instance.
+5. Save the completed textured 3D model to Amazon S3.
+
+Separating the workflow into different stages allows each task to run on the most suitable compute resources, improving scalability and reducing unnecessary GPU costs.
 
 ---
 
-## The Pub/Sub Hub
+# Generating the 3D Mesh with TripoSG
 
-Using a **hub-and-spoke** architecture (or message broker) works well with a small number of tightly related microservices.  
-- Each microservice depends only on the *hub*  
-- Inter-microservice connections are limited to the contents of the published message  
-- Reduces the number of synchronous calls since pub/sub is a one-way asynchronous *push*
+The first stage focuses on creating the geometric structure of the 3D model.
 
-Drawback: **coordination and monitoring** are needed to avoid microservices processing the wrong message.
+GPU-enabled EC2 instances such as the **g4dn** family are well suited for running the TripoSG model, especially when using AWS Deep Learning AMIs that already include CUDA and PyTorch.
 
----
+The workflow includes:
 
-## Core Microservice
+- Downloading the input image from Amazon S3
+- Running the TripoSG model
+- Generating the 3D mesh
+- Exporting the model in **.glb** format
+- Uploading the generated mesh back to Amazon S3
 
-Provides foundational data and communication layer, including:  
-- **Amazon S3** bucket for data  
-- **Amazon DynamoDB** for data catalog  
-- **AWS Lambda** to write messages into the data lake and catalog  
-- **Amazon SNS** topic as the *hub*  
-- **Amazon S3** bucket for artifacts such as Lambda code
-
-> Only allow indirect write access to the data lake through a Lambda function → ensures consistency.
+The resulting mesh serves as the foundation for the texturing stage.
 
 ---
 
-## Front Door Microservice
+# Applying Textures with MV-Adapter
 
-- Provides an API Gateway for external REST interaction  
-- Authentication & authorization based on **OIDC** via **Amazon Cognito**  
-- Self-managed *deduplication* mechanism using DynamoDB instead of SNS FIFO because:  
-  1. SNS deduplication TTL is only 5 minutes  
-  2. SNS FIFO requires SQS FIFO  
-  3. Ability to proactively notify the sender that the message is a duplicate  
+Once the mesh has been generated, **MV-Adapter** uses the original 2D image as a reference to generate multi-view textures.
+
+Because this process requires significantly more GPU memory, GPU instances from the **g6e** family are recommended.
+
+A common issue encountered during AI mesh generation is the presence of **non-manifold geometry**, which may interrupt the texture generation process.
+
+Before applying textures, the mesh should be repaired.
+
+Example:
+
+```bash
+python fix_manifold.py \
+inputs/raw_model.glb \
+inputs/manifold_model.glb
+```
+
+After repairing the mesh, textures can be generated using:
+
+```bash
+python -m scripts.texture_i2tex \
+--image inputs/concept.jpeg \
+--mesh inputs/manifold_model.glb \
+--save_dir outputs \
+--remove_bg
+```
+
+The output is a textured 3D model that is ready for further optimization.
 
 ---
 
-## Staging ER7 Microservice
+# Optimizing the Generated Model
 
-- Lambda “trigger” subscribed to the pub/sub hub, filtering messages by attribute  
-- Step Functions Express Workflow to convert ER7 → JSON  
-- Two Lambdas:  
-  1. Fix ER7 formatting (newline, carriage return)  
-  2. Parsing logic  
-- Result or error is pushed back into the pub/sub hub  
+AI-generated models are generally suitable for prototyping but often require additional optimization before being used in production.
+
+Typical optimization tasks include:
+
+- Reducing polygon count
+- Improving topology
+- Optimizing UV mapping
+- Cleaning mesh geometry
+- Refining materials
+
+Applications such as **Blender** provide powerful tools for performing these optimization steps.
 
 ---
 
-## New Features in the Solution
+# Rigging and Animation
 
-### 1. AWS CloudFormation Cross-Stack References
-Example *outputs* in the core microservice:
-```yaml
-Outputs:
-  Bucket:
-    Value: !Ref Bucket
-    Export:
-      Name: !Sub ${AWS::StackName}-Bucket
-  ArtifactBucket:
-    Value: !Ref ArtifactBucket
-    Export:
-      Name: !Sub ${AWS::StackName}-ArtifactBucket
-  Topic:
-    Value: !Ref Topic
-    Export:
-      Name: !Sub ${AWS::StackName}-Topic
-  Catalog:
-    Value: !Ref Catalog
-    Export:
-      Name: !Sub ${AWS::StackName}-Catalog
-  CatalogArn:
-    Value: !GetAtt Catalog.Arn
-    Export:
-      Name: !Sub ${AWS::StackName}-CatalogArn
+After optimization, the next step is adding a skeleton (rigging) so the model can be animated.
+
+Popular options include:
+
+- Using the **Rigify** add-on in Blender to generate a character rig
+- Using **Mixamo** to automatically rig characters and apply prebuilt animations
+
+Once rigged, the model can be imported directly into game engines such as Unity or Unreal Engine.
+
+---
+
+# Cost Optimization on AWS
+
+GPU-enabled EC2 instances provide high performance but can become expensive if left running continuously.
+
+Several best practices can help reduce costs:
+
+- Use AWS Deep Learning AMIs with preconfigured CUDA and PyTorch.
+- Start GPU instances only when processing is required.
+- Store all project data in Amazon S3.
+- Stop or terminate EC2 instances immediately after the workflow completes.
+
+Students and beginners can also participate in AWS workshops or AWS Cloud Bootcamps to earn AWS Credits for experimentation and development.
+
+---
+
+# Practical Applications
+
+This workflow can be applied in many scenarios, including:
+
+- Game development
+- Character creation
+- Metaverse asset generation
+- AR/VR applications
+- Product visualization
+- Rapid prototyping
+
+By combining open-source AI models with AWS GPU infrastructure, developers can significantly reduce the time required to create high-quality 3D assets.
+
+---
+
+# Conclusion
+
+Deploying TripoSG and MV-Adapter on AWS provides an efficient workflow for converting 2D images into textured 3D assets.
+
+Although AI-generated models cannot yet fully replace professional 3D artists, they are highly effective during the prototyping phase, enabling developers to accelerate asset creation while reducing manual modeling effort.
+
+Combined with Amazon EC2 GPU instances and Amazon S3 storage, this solution offers a scalable and flexible workflow suitable for both research projects and real-world game development.
