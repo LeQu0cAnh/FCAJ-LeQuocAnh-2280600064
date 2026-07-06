@@ -1,6 +1,6 @@
 ---
 title: "Các bài blogs đã dịch"
-date: 2026-07-10
+date: 2026-07-06
 weight: 3
 chapter: false
 pre: " <b> 3. </b> "
