@@ -1,4 +1,4 @@
-baseURL = "/workshop/"
+baseURL = "/FCAJ-LeQuocAnh-2280600064/"
 relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
@@ -14,7 +14,7 @@ home = [ "HTML", "RSS", "JSON"]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "workshop"
   # Git hub repo link
-  editURL = "https://github.com/locle1010/workshop/edit/main/content/"
+  editURL = "https://github.com/LeQu0cAnh/FCAJ-LeQuocAnh-2280600064/edit/main/content/"
   description = ""
   author = "Lê Quốc Anh"
   showVisitedLinks = true
