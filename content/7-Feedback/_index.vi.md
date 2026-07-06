@@ -36,7 +36,7 @@ Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về t
 
 - Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?
     Nếu giới thiệu cho bạn bè, em nghĩ là em sẽ khuyên các bạn thực tập tại đây vì:
-  
-        + Môi trường thực tập tốt, phù hợp cho các quy trình, cách làm việc thời đại hiện nay.
-        + Được tiếp xúc với nhiều diễn giả, người có kinh nghiệm thâm niên trong nghề để lắng nghe những chia sẻ, những đúc kết giúp ích lớn cho con đường sau này.
-        + Có những anh chị mentor/admin thân thiện, tận tâm, đầy nhiệt huyết hỗ trợ và giúp đỡ.
+
+    + Môi trường thực tập tốt, phù hợp cho các quy trình, cách làm việc thời đại hiện nay.
+    + Được tiếp xúc với nhiều diễn giả, người có kinh nghiệm thâm niên trong nghề để lắng nghe những chia sẻ, những đúc kết giúp ích lớn cho con đường sau này.
+    + Có những anh chị mentor/admin thân thiện, tận tâm, đầy nhiệt huyết hỗ trợ và giúp đỡ.
