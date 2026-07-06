@@ -1,54 +1,50 @@
 ---
 title: "Worklog Tuần 3"
-date: 2026-06-26
+date: 2026-05-09
 weight: 1
 chapter: false
 pre: " <b> 1.3. </b> "
+
 ---
+
 ### Mục tiêu tuần 3:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hoàn thành các bài lab và video hướng dẫn của module 4
+* Hoàn thành các bài lab và video hướng dẫn của module 5
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                                                      | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                                                                                                                                                                                                                                                                                                                     |
+| --- | -------------------------------------------------------------- | ------------ | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2   | Học theo nội dung youtube và các phần hướng dẫn của module 4,5 | 04/05/2026   | 04/05/2026      | https://www.youtube.com/watch?v=hsCfP0IxoaM&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=103                                                                                                                                                        https://www.youtube.com/watch?v=tsobAlSg19g&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=150 |
+| 3   | Thực hành các bài lab của module 4,5 theo hướng dẫn            | 05/05/2026   | 05/05/2026      | https://www.youtube.com/watch?v=IHxgFMlL3y8&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=107                                                                                                                                                                                                                                                      |
+| 4   | Thực hành các bài lab của module 4,5 theo hướng dẫn            | 06/05/2026   | 06/05/2026      | https://www.youtube.com/watch?v=YnLo4MgOXyA&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=158                                                                                                                                                                                                                                                      |
+| 5   | Hoàn thiện các bài lab của module 4,5 và tổng kết kiến thức    | 07/05/2026   | 07/05/2026      |                                                                                                                                                                                                                                                                                                                                                    |
+| 6   | Viết worklog và báo cáo                                        | 08/05/2026   | 08/05/2026      |                                                                                                                                                                                                                                                                                                                                                    |
+| 7   | Tham dự sự kiện                                                | 09/05/2026   | 09/05/2026      |                                                                                                                                                                                                                                                                                                                                                    |
 
 ### Kết quả đạt được tuần 3:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+**1. Các hoạt động và công việc đã thực hiện**
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Tiến hành học tập và thực hành các bài lab theo nội dung và các video hướng dẫn của Module 4, 5.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- Tổng kết kiến thức đã học và nội dung các bài lab đã thực hành.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- Hoàn thiện báo cáo thực tập và worklog của Tuần 3.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+**2. Kết quả đạt được**
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+- Học các kiến thức tổng quan về các giải pháp lưu trữ, sao lưu, phục hồi dữ liệu; cùng với các nguyên tắc bảo mật, quản lý định danh và phân quyền truy cập cốt lõi trên AWS.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+- Sử dụng Amazon S3, Glacier, vận chuyển dữ liệu lớn (Snow Family), lưu trữ lai (Storage Gateway) và các chiến lược khôi phục hệ thống sau thảm họa (AWS Backup, DR).
 
+- Nắm vững mô hình chia sẻ trách nhiệm, quản lý quyền truy cập (IAM), xác thực người dùng cho ứng dụng (Cognito) và quản trị tập trung đa tài khoản (AWS Organizations).
 
+- Được giới thiệu kiến trúc mới, các mẹo làm việc và mindset làm việc của các anh chị đi trước.
+
+**3. Đánh giá chung và Định hướng**
+
+- **Đánh giá:** Tiếp tục giữ tiến độ và hoàn thiện phần bài học trong tuần. Tuy nhiên, có sự quá tải và phải lược bỏ một số bài lab thực hành (ngoài những bài được dặn không làm) do số lượng bài thực hành là quá nhiều.
+
+- **Định hướng (Rút kinh nghiệm):** Việc sắp xếp lịch học phần nào hơi dày đặc vào những ngày làm việc trong tuần đã gây ra áp lực về thời gian khi có việc đột xuất. Cần cân đối lại lịch học linh hoạt hơn.

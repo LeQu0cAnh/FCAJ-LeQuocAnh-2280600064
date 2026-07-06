@@ -1,52 +1,50 @@
 ---
 title: "Week 8 Worklog"
-date: 2026-06-26
+date: 2026-06-12
 weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
+
 ---
+
 ### Week 8 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Implement the planned product architecture into practice.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day       | Task                                                           | Start Date | Completion Date | Reference Material                                                 |
+| --------- | -------------------------------------------------------------- | ---------- | --------------- | ------------------------------------------------------------------ |
+| Monday    | Design the product (app)                                       | 8/06/2026  | 10/06/2026      | <https://github.com/LeQu0cAnh/PetWebAWSProject/tree/nhanh-pet-new> |
+| Tuesday   | Design the product (app)                                       | 9/06/2026  | 10/06/2026      | <https://github.com/LeQu0cAnh/PetWebAWSProject/tree/nhanh-pet-new> |
+| Wednesday | Design the product (app)                                       | 10/06/2026 | 10/06/2026      | <https://github.com/LeQu0cAnh/PetWebAWSProject/tree/nhanh-pet-new> |
+| Thursday  | Edit and align the planned architecture parts with the product | 11/06/2026 | 11/06/2026      | <https://github.com/LeQu0cAnh/PetWebAWSProject/tree/nhanh-pet-new> |
+| Friday    | Write worklog and report                                       | 12/06/2026 | 12/06/2026      |                                                                    |
 
 ### Week 8 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+**1. Activities and Tasks Completed**
 
-* Successfully created and configured an AWS Free Tier account.
+- Designed basic functions and established basic connections of the product to the system.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Designed advanced functions, allowing deep intervention into the user's system to perform the expected functions of the "pet".
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- Utilized Google's API as the extended core, enabling the product to search and expand externally to serve specific features.
 
-* Used AWS CLI to perform basic operations such as:
+- Summarized and compared the actual architecture of the product components with the ongoing planned architecture.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+- Summarized the week's content and the completed tasks.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+**2. Achieved Results**
+
+- Completed a portion of the product (the app).
+
+- Applied the designed architectures into the actual product (integrated with the previously built web platform).
+
+- Completed a part of the "pet" feature based on the initially planned architecture.
+
+**3. General Assessment and Orientation**
+
+- **Assessment:** Overall, the week's assigned tasks were successfully completed.
+
+- **Orientation (Challenges):** Due to objective reasons that made direct communication difficult, several tasks could not be fully completed within the week. The team will need to address this communication barrier to finish the remaining tasks next week.

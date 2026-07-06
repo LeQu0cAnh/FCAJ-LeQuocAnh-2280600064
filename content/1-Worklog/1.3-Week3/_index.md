@@ -1,52 +1,50 @@
 ---
 title: "Week 3 Worklog"
-date: 2026-06-26
+date: 2026-05-09
 weight: 1
 chapter: false
 pre: " <b> 1.3. </b> "
+
 ---
+
 ### Week 3 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Complete the labs and video tutorials of module 4
+* Complete the labs and video tutorials of module 5
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day       | Task                                                                | Start Date | Completion Date | Reference Material                                                                                                                                                              |
+| --------- | ------------------------------------------------------------------- | ---------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Monday    | Study according to the YouTube content and module 4, 5 instructions | 04/05/2026 | 04/05/2026      | <https://www.youtube.com/watch?v=hsCfP0IxoaM&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=103> <br> <https://www.youtube.com/watch?v=tsobAlSg19g&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=150> |
+| Tuesday   | Practice the module 4, 5 labs according to the instructions         | 05/05/2026 | 05/05/2026      | <https://www.youtube.com/watch?v=IHxgFMlL3y8&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=107>                                                                                 |
+| Wednesday | Practice the module 4, 5 labs according to the instructions         | 06/05/2026 | 06/05/2026      | <https://www.youtube.com/watch?v=YnLo4MgOXyA&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=158>                                                                                 |
+| Thursday  | Complete the module 4, 5 labs and summarize the knowledge           | 07/05/2026 | 07/05/2026      |                                                                                                                                                                                 |
+| Friday    | Write worklog and report                                            | 08/05/2026 | 08/05/2026      |                                                                                                                                                                                 |
+| Saturday  | Attend the event                                                    | 09/05/2026 | 09/05/2026      |                                                                                                                                                                                 |
 
 ### Week 3 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+**1. Activities and Tasks Completed**
 
-* Successfully created and configured an AWS Free Tier account.
+- Studied and practiced the labs based on the content and instructional videos for Modules 4 and 5.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Summarized the acquired knowledge and the content of the completed practice labs.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- Completed the internship report and worklog for Week 3.
 
-* Used AWS CLI to perform basic operations such as:
+**2. Achieved Results**
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+- Learned an overview of storage, backup, and data recovery solutions, along with core principles of security, identity management, and access control on AWS.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Used Amazon S3, Glacier, large-scale data transport (Snow Family), hybrid storage (Storage Gateway), and disaster recovery strategies (AWS Backup, DR).
+
+- Mastered the shared responsibility model, identity and access management (IAM), user authentication for applications (Cognito), and centralized multi-account management (AWS Organizations).
+
+- Was introduced to new architectures, working tips, and the professional mindset from senior colleagues.
+
+**3. General Assessment and Orientation**
+
+- **Assessment:** Continued to maintain the schedule and complete the week's lessons. However, experienced overload and had to skip some practice labs (in addition to those explicitly instructed to skip) because the number of practical exercises was simply too large.
+
+- **Orientation (Lessons Learned):** Scheduling a dense study plan during weekdays caused time pressure when unexpected events occurred. There is a need to balance the study schedule more flexibly.

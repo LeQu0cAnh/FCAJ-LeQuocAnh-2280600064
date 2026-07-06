@@ -1,54 +1,45 @@
 ---
 title: "Worklog Tuần 9"
-date: 2026-06-26
+date: 2026-06-19
 weight: 1
 chapter: false
 pre: " <b> 1.9. </b> "
+
 ---
+
 ### Mục tiêu tuần 9:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tinh chỉnh kiến trúc cho phù hợp với thực tế, tối ư hóa chi phí
+* Tinh chỉnh sản phẩm phù hợp với kiến trúc
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                       | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                                                                               |
+| --- | ------------------------------- | ------------ | --------------- | ------------------------------------------------------------------------------------------------------------ |
+| 2   | Chỉnh sửa kiến trúc và sản phẩm | 15/06/2026   | 23/06/2026      | https://app.diagrams.net/#G1P5eLbMI6rVOprukQMJZcyDZMA6FPZtLh#%7B%22pageId%22%3A%22Ht1M8jgEwFfnCIfOTk4-%22%7D |
+| 3   | Chỉnh sửa kiến trúc và sản phẩm | 16/06/2026   | 23/06/2026      | https://app.diagrams.net/#G1P5eLbMI6rVOprukQMJZcyDZMA6FPZtLh#%7B%22pageId%22%3A%22Ht1M8jgEwFfnCIfOTk4-%22%7D |
+| 4   | Chỉnh sửa kiến trúc và sản phẩm | 17/06/2026   | 23/06/2026      | https://app.diagrams.net/#G1P5eLbMI6rVOprukQMJZcyDZMA6FPZtLh#%7B%22pageId%22%3A%22Ht1M8jgEwFfnCIfOTk4-%22%7D |
+| 5   | Chỉnh sửa kiến trúc và sản phẩm | 18/06/2026   | 23/06/2026      | https://github.com/LeQu0cAnh/PetWebAWSProject/tree/Locle1010_new_Web                                         |
+| 6   | Viết worklog và báo cáo         | 19/06/2026   | 19/06/2026      |                                                                                                              |
 
 ### Kết quả đạt được tuần 9:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+**1. Các hoạt động và công việc đã thực hiện**
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Chỉnh sửa lại kiến trúc sản phẩm cho phù hợp với thực tế.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- Chỉnh sửa sản phẩm (bao gồm cả phần Web và các phần của App) bám sát theo kiến trúc mới.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- Tổng kết nội dung của tuần và các phần công việc đã thực hiện.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+**2. Kết quả đạt được**
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+- Đã chỉnh sửa lại toàn bộ kiến trúc theo đúng hướng dẫn và nhận xét của các anh chị hướng dẫn (mentor).
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+- Đồng thời, tiến hành chỉnh sửa lại sản phẩm thành công để đáp ứng và phù hợp với kiến trúc vừa được cập nhật.
 
+**3. Đánh giá chung và Định hướng**
 
+- **Đánh giá:** Kiến trúc do nhóm thực hiện đã khá tốt và sản phẩm hiện tại đã bắt kịp được với những thay đổi của kiến trúc.
+
+- **Định hướng (Khó khăn gặp phải):** Vì có những thay đổi đột ngột về mặt kiến trúc nên một số phần của sản phẩm đang gặp sự cố và dính lỗi (bug). Ưu tiên tiếp theo của nhóm sẽ là tập trung khắc phục và sửa các lỗi này.

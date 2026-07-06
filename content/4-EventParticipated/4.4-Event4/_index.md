@@ -37,6 +37,7 @@ pre: " <b> 4.4. </b> "
 #### Architecture and Voice AI Optimization for the Vietnamese Market
 
 Mr. Trung Vu's presentation provided a practical and profound perspective on deploying voice AI switchboards for major banks in Vietnam, thoroughly resolving language and business barriers.
+
 - **Why not use Speech-to-Speech?** Currently, most Speech-to-Speech models primarily support English and lack resources for Vietnamese.
 - **Practical solution**: Use a three-step architecture: Speech-to-Text (voice recognition) -> LLM (text processing) -> Text-to-Speech (text to voice). This architecture helps enterprises strictly control AI output content, avoid "hallucinations," and easily execute Tool Calling (e.g., locking a bank card upon request).
 - **Latency optimization**: For Voice AI to respond naturally, the entire process of recognition, text processing, and voice output must be executed through a continuous Streaming mechanism, helping the AI catch the voice and reply almost instantly without waiting to process the entire sentence.
@@ -106,6 +107,7 @@ Attending the **“FCAJ Community Day: Data Driven, AI Risen”** workshop was a
 - **Always keep the Human-in-the-loop loop**: Even though AI has extremely powerful automation capabilities, from DevOps to HR, humans must remain the final decision-makers to ensure safety and transparency.
 
 #### Some event photos
+
 ![event photo](/images/event2706.jpg)
 
 > Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.

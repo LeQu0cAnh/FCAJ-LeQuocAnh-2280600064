@@ -1,54 +1,49 @@
 ---
 title: "Worklog Tuần 2"
-date: 2026-06-26
+date: 2026-05-01
 weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
+
 ---
+
 ### Mục tiêu tuần 2:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hoàn thành các bài lab và video hướng dẫn của module 2
+* Hoàn thành các bài lab và video hướng dẫn của module 3
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                                                      | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                                                                                                                                                                   |
+| --- | -------------------------------------------------------------- | ------------ | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 2   | Học theo nội dung youtube và các phần hướng dẫn của module 2,3 | 27/04/2026   | 27/04/2026      | https://www.youtube.com/watch?v=O9Ac_vGHquM&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=25 <br> <https://www.youtube.com/watch?v=-t5h4N6vfBs&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=72> |
+| 3   | Thực hành các bài lab của module 2,3 theo hướng dẫn            | 28/04/2026   | 28/04/2026      | https://www.youtube.com/watch?v=O5CIvG0Wt78&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=28                                                                                                     |
+| 4   | Thực hành các bài lab của module 2,3 theo hướng dẫn            | 29/04/2026   | 30/04/2026      | https://www.youtube.com/watch?v=7r_-MnOO64s&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=81                                                                                                     |
+| 5   | Hoàn thiện các bài lab của module 2,3 và tổng kết kiến thức    | 30/04/2026   | 30/04/2026      |                                                                                                                                                                                                  |
+| 6   | Viết worklog và báo cáo                                        | 01/05/2026   | 01/05/2026      |                                                                                                                                                                                                  |
 
 ### Kết quả đạt được tuần 2:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+**1. Các hoạt động và công việc đã thực hiện**
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Tiến hành học tập và thực hành các bài lab theo nội dung và video hướng dẫn của Module 2 và 3.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- Thực hành các bài lab chuyên sâu liên quan đến hệ thống mạng trên AWS.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- Thực hành các bài lab liên quan đến điện toán và lưu trữ trên nền tảng AWS.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+- Tổng kết lại kiến thức đã học và nội dung các bài lab đã thực hành.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+- Hoàn thiện báo cáo thực tập và worklog của Tuần 2.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+**2. Kết quả đạt được**
 
+- Học và nắm vững được các kiến thức cốt lõi về cách thiết lập hạ tầng mạng bảo mật, an toàn.
 
+- Biết cách triển khai và cấu hình máy chủ ảo, hệ thống lưu trữ, cũng như thiết lập tự động co giãn tài nguyên trên nền tảng AWS.
+
+**3. Đánh giá chung và Định hướng**
+
+- **Tiến độ & Định hướng:** Bắt đầu tăng tốc hoàn thành các bài học trước nhanh nhất có thể để tranh thủ dành thêm thời gian cho phần đề tài sẽ làm trong tương lai.
+
+- **Đánh giá:** Nội dung phần đầu khá nhẹ nhàng, do đó vẫn hoàn toàn có thể bắt kịp tiến độ đã đề ra trong tuần.

@@ -6,7 +6,6 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-
 # Bài thu hoạch “FCAJ Community Day: Meet up”
 
 ### Mục Đích Của Sự Kiện
@@ -59,7 +58,7 @@ pre: " <b> 4.1. </b> "
 #### Sự liêm chính và thái độ:
 
 - **Trong công việc**: Làm việc cần sự chính trực, chủ động đào sâu các trường hợp ngoại lệ (edge cases) dù không ai yêu cầu.
--  **Đối với nhà tuyển dụng**: Tiêu chí ưu tiên đối với Fresher là Thái độ, tiếp theo mới đến Trình độ/Học vấn, Kinh nghiệm và Tố chất.
+- **Đối với nhà tuyển dụng**: Tiêu chí ưu tiên đối với Fresher là Thái độ, tiếp theo mới đến Trình độ/Học vấn, Kinh nghiệm và Tố chất.
 
 ### Những Gì Học Được
 
@@ -122,5 +121,7 @@ Tham gia sự kiện **FCAJ Community Day** lần này là một trải nghiệm
 - Các công cụ AI có thể boost productivity lên rất cao nếu được sử dụng đúng cách, nhưng tuyệt đối không được để chúng thay thế tư duy phản biện của chính bản thân mình
 
 #### Một số hình ảnh khi tham gia sự kiện
+
 ![Ảnh tham gia sự kiện](/images/event0905.jpg)
+
 > Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.

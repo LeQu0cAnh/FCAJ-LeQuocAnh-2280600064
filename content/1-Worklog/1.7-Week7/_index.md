@@ -1,52 +1,50 @@
 ---
 title: "Week 7 Worklog"
-date: 2026-06-26
+date: 2026-06-06
 weight: 1
 chapter: false
 pre: " <b> 1.7. </b> "
+
 ---
+
 ### Week 7 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Design the web architecture.
+* Design the app architecture.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day       | Task                                      | Start Date | Completion Date | Reference Material                                                                                                                           |
+| --------- | ----------------------------------------- | ---------- | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Monday    | Fix bugs in the web part of the product   | 1/06/2026  | 3/06/2026       | <https://github.com/LeQu0cAnh/PetWebAWSProject/tree/Web>                                                                                     |
+| Tuesday   | Fix bugs in the web part of the product   | 2/06/2026  | 3/06/2026       | <https://github.com/LeQu0cAnh/PetWebAWSProject/tree/Web>                                                                                     |
+| Wednesday | Fix bugs in the web part of the product   | 3/06/2026  | 3/06/2026       | <https://github.com/LeQu0cAnh/PetWebAWSProject/tree/Web>                                                                                     |
+| Thursday  | Design the product architecture (web/app) | 4/06/2026  | 4/06/2026       | <https://app.diagrams.net/#G1P5eLbMI6rVOprukQMJZcyDZMA6FPZtLh#%7B%22pageId%22%3A%22Ht1M8jgEwFfnCIfOTk4-%22%7D> |
+| Friday    | Write worklog and report                  | 5/06/2026  | 5/06/2026       |                                                                                                                                              |
+| Saturday  | Attend the event                          | 6/06/2026  | 6/06/2026       |                                                                                                                                              |
 
 ### Week 7 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+**1. Activities and Tasks Completed**
 
-* Successfully created and configured an AWS Free Tier account.
+- Revised the hosting and data storage components of the website.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Moved the website out of the AWS service structure, hosted it directly, and changed the website's interface by coding with Node.js.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- Discussed the product architecture with the team.
 
-* Used AWS CLI to perform basic operations such as:
+- Participated in an event, learned and got familiar with product architectures applied to familiar tasks, and listened to valuable sharing and experiences from senior colleagues.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+- Summarized the week's content and the completed tasks.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+**2. Achieved Results**
+
+- Successfully completed the web section, fixed encountered bugs, and completely revamped the website's interface.
+
+- Completed team discussions regarding the product's architecture.
+
+**3. General Assessment and Orientation**
+
+- **Assessment:** Encountered some issues during the web design and programming process, but the team successfully resolved them.
+
+- **Orientation:** Since the time spent at the company office is limited, the team has a backup plan to find a location to work together in person to boost work efficiency.

@@ -1,6 +1,6 @@
 ---
 title: "Sharing and Feedback"
-date: 2026-07-12
+date: 2026-07-10
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
@@ -28,6 +28,7 @@ The company provides an internship allowance and offers flexible working hours w
 ---
 
 ### Additional Questions
+
 - What did you find **most satisfying** during your internship?  
   For me personally, the most satisfying thing during the internship was experiencing working in a professional corporate environment, working under the guidance of highly experienced mentors and admins.
 
@@ -36,6 +37,7 @@ The company provides an internship allowance and offers flexible working hours w
 
 - If recommending to a friend, would you **suggest they intern here**? Why or why not?  
   If recommending to a friend, I think I would advise them to intern here because:
+  
   + Good internship environment, suitable for the current era's processes and working methods.
   + Having the opportunity to interact with many speakers and seasoned professionals to listen to their sharing and takeaways, which is greatly helpful for the future path.
   + Having friendly, dedicated, and enthusiastic mentors/admins to support and help.

@@ -4,51 +4,48 @@ date: 2026-04-24
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
+
 ---
+
 ### Mục tiêu tuần 1:
 
 * Kết nối, làm quen với các thành viên trong First Cloud Journey.
 * Khám phá dịch vụ AWS, hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 20/04/2026   | 20/04/2026      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 21/04/2026   | 21/04/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 22/04/2026   | 22/04/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 23/04/2026   | 24/04/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 25/04/2026   | 25/04/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                                                                                                    | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                                                               |
+|:---:|:------------------------------------------------------------------------------------------------------------:|:------------:|:---------------:|:--------------------------------------------------------------------------------------------:|
+| 2   | Tạo tài khoản AWS và làm quen với giao diện console. Thực hiện 5 bài khởi động để lấy đủ 200 credit miễn phí | 2026/04/20   | 2026/04/20      | https://master.d31mm2rc5713dr.amplifyapp.com/                                                |
+| 3   | Học theo nội dung youtube và các phần hướng dẫn của module 1                                                 | 2026/04/21   | 2026/04/21      | https://www.youtube.com/watch?v=HxYZAK1coOI&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=4  |
+| 4   | Thực hành các bài lab theo hướng dẫnI                                                                        | 2026/04/22   | 2026/04/22      | https://www.youtube.com/watch?v=waR5S_lljrk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=11 |
+| 5   | Hoàn thiện các bài lab của module 1 và tổng kết kiến thức                                                    | 2026/04/23   | 2026/04/23      |                                                                                              |
+| 6   | Viết worklog và báo cáo                                                                                      | 2026/04/24   | 2026/04/24      |                                                                                              |
 
 ### Kết quả đạt được tuần 1:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+**1. Các hoạt động và công việc đã thực hiện**
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Làm quen với các thành viên mới và tạo lập đội nhóm thành công.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- Làm quen với các dịch vụ của AWS, tìm hiểu cách thức hoạt động và định hướng làm việc.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- Tiến hành học tập và thực hành các bài lab mở đầu (tạo tài khoản) của Module 1 theo nội dung và video hướng dẫn.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+- Tiến hành thực hành ứng dụng các dịch vụ của AWS cho các phần của Module 1.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+- Tổng kết kiến thức đã học cùng nội dung các bài lab đã làm.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+- Hoàn thiện báo cáo thực tập và worklog của Tuần 1.
 
+**2. Kết quả đạt được**
 
+- Đã có đủ 200 credit miễn phí để thực hiện các bài lab khác và project trong tương lai.
+
+- Học hỏi thêm được nhiều kiến thức mới và hiểu rõ cách thức hoạt động của các dịch vụ AWS.
+
+**3. Đánh giá chung và Định hướng**
+
+- **Đánh giá:** Tuần khởi đầu diễn ra thuận lợi và nhẹ nhàng.
+
+- **Định hướng:** Đã định hình trước được các đầu mục công việc và hướng đi cho các tuần tiếp theo.

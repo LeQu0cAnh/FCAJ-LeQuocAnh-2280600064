@@ -1,52 +1,51 @@
 ---
 title: "Week 1 Worklog"
-date: "2026-06-26"
+date: 2026-04-24
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
+
 ---
+
 ### Week 1 Objectives:
 
 * Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
- 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 04/20/2026 | 04/20/2026      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 04/21/2026 | 04/21/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 04/22/2026 | 04/22/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 04/23/2026 | 04/24/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 04/25/2026 | 04/25/2026      | <https://cloudjourney.awsstudygroup.com/> |
+* Explore AWS services, understand basic AWS services, how to use the console & CLI.
 
+### Tasks to be carried out this week:
+
+| Day       | Task                                                                                                                             | Start Date | Completion Date | Reference Material                                                                             |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ---------------------------------------------------------------------------------------------- |
+| Monday    | Create an AWS account and get familiar with the console interface. Complete 5 warm-up exercises to get enough 200 free credits | 2026/04/20 | 2026/04/20      | <https://master.d31mm2rc5713dr.amplifyapp.com/>                                                |
+| Tuesday   | Study according to the YouTube content and module 1 instructions                                                               | 2026/04/21 | 2026/04/21      | <https://www.youtube.com/watch?v=HxYZAK1coOI&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=4>  |
+| Wednesday | Practice the labs according to the instructions                                                                                | 2026/04/22 | 2026/04/22      | <https://www.youtube.com/watch?v=waR5S_lljrk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=11> |
+| Thursday  | Complete the module 1 labs and summarize the knowledge                                                                         | 2026/04/23 | 2026/04/23      |                                                                                                |
+| Friday    | Write worklog and report                                                                                                       | 2026/04/24 | 2026/04/24      |                                                                                                |
 
 ### Week 1 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+**1. Activities and Tasks Completed**
 
-* Successfully created and configured an AWS Free Tier account.
+- Got acquainted with new members and successfully formed a team.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Familiarized with AWS services, learned how they operate, and defined the work orientation.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- Studied and practiced the introductory labs (account creation) of Module 1 based on the provided content and instructional videos.
 
-* Used AWS CLI to perform basic operations such as:
+- Practiced using AWS services for the application sections of Module 1.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+- Summarized the acquired knowledge and the content of the completed labs.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Completed the internship report and worklog for Week 1.
+
+**2. Achieved Results**
+
+- Secured enough 200 free credits to perform other labs and future projects.
+
+- Gained new knowledge and clearly understood the operational mechanism of various AWS services.
+
+**3. General Assessment and Orientation**
+
+- **Assessment:** A smooth and light-paced starting week.
+
+- **Orientation:** Pre-defined the tasks and directions for the upcoming weeks.

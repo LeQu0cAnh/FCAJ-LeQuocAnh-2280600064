@@ -1,54 +1,52 @@
 ---
 title: "Worklog Tuần 8"
-date: 2026-06-26
+date: 2026-06-12
 weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
+
 ---
+
 ### Mục tiêu tuần 8:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Đưa kiến trúc sản phẩm dự kiến vào thực tế 
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                                                        | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                                   |
+| --- | ---------------------------------------------------------------- | ------------ | --------------- | ---------------------------------------------------------------- |
+| 2   | Thiết kế sản phẩm (app)                                          | 8/06/2026    | 10/06/2026      | https://github.com/LeQu0cAnh/PetWebAWSProject/tree/nhanh-pet-new |
+| 3   | Thiết kế sản phẩm (app)                                          | 9/06/2026    | 10/06/2026      | https://github.com/LeQu0cAnh/PetWebAWSProject/tree/nhanh-pet-new |
+| 4   | Thiết kế sản phẩm (app)                                          | 10/06/2026   | 10/06/2026      | https://github.com/LeQu0cAnh/PetWebAWSProject/tree/nhanh-pet-new |
+| 5   | Chỉnh sửa, đối chiếu các phần dự kiến của kiến trúc với sản phẩm | 11/06/2026   | 11/06/2026      | https://github.com/LeQu0cAnh/PetWebAWSProject/tree/nhanh-pet-new |
+| 6   | Viết worklog và báo cáo                                          | 12/06/2026   | 12/06/2026      |                                                                  |
 
 ### Kết quả đạt được tuần 8:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+Dựa vào nội dung trong hình ảnh bạn vừa cung cấp, mình đã tiếp tục tổng hợp, sắp xếp lại theo định dạng chuẩn và đính kèm bản dịch tiếng Anh ở bên dưới cho bạn nhé:
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+**1. Các hoạt động và công việc đã thực hiện**
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- Thiết kế các chức năng cơ bản và thiết lập kết nối cơ bản của sản phẩm tới hệ thống.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- Thiết kế các chức năng nâng cao, cho phép can thiệp sâu vào hệ thống của máy người dùng để thực hiện các chức năng dự kiến của "pet".
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+- Sử dụng API của Google để làm phần lõi mở rộng, giúp sản phẩm có khả năng tra cứu và kết nối ra bên ngoài nhằm phục vụ một số chức năng cụ thể.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+- Tóm lược và đối chiếu kiến trúc thực tế của các phần sản phẩm với kiến trúc dự kiến đang thực hiện.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+- Tổng kết nội dung của tuần và các phần công việc đã thực hiện.
 
+**2. Kết quả đạt được**
 
+- Hoàn thành một phần của sản phẩm (ứng dụng/app).
+
+- Đưa các kiến trúc trên bản thiết kế ứng dụng vào sản phẩm thực tế (tích hợp với phần web đã làm trước đó).
+
+- Hoàn thành một phần của tính năng "pet" dựa trên kiến trúc dự kiến ban đầu.
+
+**3. Đánh giá chung và Định hướng**
+
+- **Đánh giá:** Tổng quan nhiệm vụ của tuần đã được hoàn thành tốt.
+
+- **Định hướng (Khó khăn gặp phải):** Do một số lý do khách quan khiến việc giao tiếp trực tiếp gặp khó khăn, vẫn còn nhiều phần việc phụ chưa thể hoàn thiện dứt điểm ngay trong tuần. Nhóm sẽ cần khắc phục vấn đề giao tiếp để tiếp tục hoàn thiện trong tuần tới.

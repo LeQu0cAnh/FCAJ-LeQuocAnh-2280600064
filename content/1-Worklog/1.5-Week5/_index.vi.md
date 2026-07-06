@@ -1,54 +1,56 @@
 ---
 title: "Worklog Tuần 5"
-date: 2026-06-26
+date: 2026-05-23
 weight: 1
 chapter: false
 pre: " <b> 1.5. </b> "
+
 ---
+
 ### Mục tiêu tuần 5:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hoàn thiện các bài lab và video hướng dẫn. 
+* Chọn đề tài nhóm, tiến hành phân công công việc.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                                                         | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | ----------------------------------------------------------------- | ------------ | --------------- | -------------- |
+| 2   | Ôn tập lại kiến thức của các module                               | 18/05/2026   | 18/05/2026      |                |
+| 3   | Ôn tập và hoàn thiện các phần lab của các tuần trước              | 19/05/2026   | 19/05/2026      |                |
+| 4   | Thảo luận cùng nhóm để đưa ra các ý kiến và chủ đề                | 20/05/2026   | 21/05/2026      |                |
+| 5   | Chốt chủ đề và thảo luận các phần của công việc, phân công vị trí | 21/05/2026   | 21/05/2026      |                |
+| 6   | Viết worklog và báo cáo                                           | 22/05/2026   | 22/05/2026      |                |
+| 7   | Tham dự sự kiện                                                   | 23/05/2026   | 23/05/2026      |                |
 
 ### Kết quả đạt được tuần 5:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+**1. Các hoạt động và công việc đã thực hiện**
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Hoàn thiện các phần bài học và phần lab hướng dẫn.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- Ôn lại nội dung chính của các bài học từ bài 1 tới 6, bao gồm các phần chú ý và các phần nội dung nói thêm.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- Ôn lại các bài lab cơ bản của các module và xem qua các bài lab "tốn phí".
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+- Thảo luận cùng nhóm, xác định hướng làm báo cáo cuối kỳ của nhóm nói chung và cá nhân nói riêng.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+- Tổng kết kiến thức đã học và nội dung các bài lab đã thực hành.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+- Hoàn thiện báo cáo thực tập và worklog của Tuần 5.
 
+**2. Kết quả đạt được**
 
+- Nắm bắt được các khái niệm và chức năng của các dịch vụ cơ bản của AWS, sẵn sàng đưa vào thực hành đề tài.
+
+- Đã chọn được đề tài nhóm sẽ thực hiện cho đồ án thực tập và bắt đầu triển khai đề tài.
+
+- Học được thêm các kiến trúc mới, tìm hiểu về các kiến trúc đã được sử dụng và lợi ích của chúng.
+
+- Nghe các lời khuyên thực chiến và học hỏi được tư duy, thái độ làm việc chuyên nghiệp từ các anh, chị, bạn đi trước.
+
+**3. Đánh giá chung và Định hướng**
+
+- **Đánh giá:** Đã hoàn tất quá trình củng cố kiến thức nền tảng của các dịch vụ AWS và hoàn thiện việc chọn đề tài.
+
+- **Định hướng:** Đã chọn ra đề tài nhóm sẽ thực hiện, từ tuần sau sẽ chính thức tiến hành chuyển qua làm đề tài nhóm.

@@ -1,53 +1,51 @@
 ---
 title: "Worklog Tuần 6"
-date: 2026-06-26
+date: 2026-05-29
 weight: 1
 chapter: false
 pre: " <b> 1.6. </b> "
+
 ---
+
 ### Mục tiêu tuần 6:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Bắt đầu làm sản phẩm, tạo sản phẩm sơ bộ
+* Nắm rõ các phần chức năng và công việc của sản phẩm cần làm.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                                      | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                                                                       |
+| --- | ---------------------------------------------- | ------------ | --------------- | ---------------------------------------------------------------------------------------------------- |
+| 2   | Nắm bắt sơ về cách thực hoạt động của sản phẩm | 25/05/2026   | 25/05/2026      | https://docs.google.com/spreadsheets/d/1KTAxNpNE6aXGzlU5Tu_zeXg8Dfy2t6JiZ6QBjMN84ys/edit?gid=0#gid=0 |
+| 3   | Tạo sản phẩm sơ khai                           | 26/05/2026   | 26/05/2026      | https://github.com/LeQu0cAnh/PetWebAWSProject                                                        |
+| 4   | Tạo phần web của sản phẩm                      | 27/05/2026   | 27/05/2026      | https://github.com/LeQu0cAnh/PetWebAWSProject/tree/Web                                               |
+| 5   | Chỉnh sửa các lỗi trong phần web sản phẩm      | 28/05/2026   | 03/06/2026      |                                                                                                      |
+| 6   | Viết worklog và báo cáo                        | 29/05/2026   | 29/05/2026      |                                                                                                      |
 
 ### Kết quả đạt được tuần 6:
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+**1. Các hoạt động và công việc đã thực hiện**
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- Thảo luận cùng nhóm để nắm sơ bộ về cách thức hoạt động cũng như các chức năng của sản phẩm, từ đó dễ dàng hình dung, lên kế hoạch, phân chia công việc và thời gian phù hợp cho từng phần.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- Phối hợp cùng các thành viên để xây dựng các chức năng của sản phẩm.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+- Tạo trang web dành cho sản phẩm để người dùng có thể tải về và cài đặt trên máy; đồng thời tích hợp thêm chức năng hướng dẫn sử dụng và cộng đồng hỏi đáp về sản phẩm trên web.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+- Chỉnh sửa lỗi do nghẽn cổ chai (bottleneck) của EC2 và database.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+- Tổng kết nội dung của tuần và các phần công việc đã thực hiện.
 
+**2. Kết quả đạt được**
 
+- Đã bắt tay vào việc làm sản phẩm sơ khai.
+
+- Nắm rõ các việc cần làm và hình dáng của sản phẩm để dễ dàng hình dung và phân công công việc.
+
+- Thống nhất được cấu trúc sản phẩm sẽ bao gồm 2 phần chính: App và Web.
+
+**3. Đánh giá chung và Định hướng**
+
+- **Đánh giá:** Đã chính thức bước vào nhiệm vụ chính và sốc lại tinh thần để làm việc. Nhóm đang hoạt động rất tốt, khả năng giao tiếp và làm việc chung đạt hiệu quả cao.
+
+- **Định hướng:** Tiếp tục duy trì đà làm việc nhóm hiệu quả này để phát triển và hoàn thiện các tính năng cốt lõi của sản phẩm trong thời gian tới.

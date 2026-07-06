@@ -1,52 +1,49 @@
 ---
 title: "Week 2 Worklog"
-date: 2026-06-26
+date: 2026-05-01
 weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
+
 ---
+
 ### Week 2 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Complete the labs and video tutorials of module 2
+* Complete the labs and video tutorials of module 3
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day       | Task                                                                | Start Date | Completion Date | Reference Material                                                                                                                                                             |
+| --------- | ------------------------------------------------------------------- | ---------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Monday    | Study according to the YouTube content and module 2, 3 instructions | 27/04/2026 | 27/04/2026      | <https://www.youtube.com/watch?v=O9Ac_vGHquM&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=25> <br> <https://www.youtube.com/watch?v=-t5h4N6vfBs&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=72> |
+| Tuesday   | Practice the module 2, 3 labs according to the instructions         | 28/04/2026 | 28/04/2026      | <https://www.youtube.com/watch?v=O5CIvG0Wt78&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=28>                                                                                 |
+| Wednesday | Practice the module 2, 3 labs according to the instructions         | 29/04/2026 | 30/04/2026      | <https://www.youtube.com/watch?v=7r_-MnOO64s&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=81>                                                                                 |
+| Thursday  | Complete the module 2, 3 labs and summarize the knowledge           | 30/04/2026 | 30/04/2026      |                                                                                                                                                                                |
+| Friday    | Write worklog and report                                            | 01/05/2026 | 01/05/2026      |                                                                                                                                                                                |
 
 ### Week 2 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+**1. Activities and Tasks Completed**
 
-* Successfully created and configured an AWS Free Tier account.
+- Studied and practiced the labs based on the content and instructional videos for Modules 2 and 3.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Conducted practice labs related to networking on AWS.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- Conducted practice labs related to computing and storage on AWS.
 
-* Used AWS CLI to perform basic operations such as:
+- Summarized the acquired knowledge and the content of the completed practice labs.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+- Completed the internship report and worklog for Week 2.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+**2. Achieved Results**
+
+- Learned and mastered core knowledge on setting up a secure network infrastructure.
+
+- Gained the ability to deploy and configure virtual servers, storage systems, and set up automatic resource scaling on the AWS platform.
+
+**3. General Assessment and Orientation**
+
+- **Progress & Orientation:** Started accelerating the completion of previous lessons as fast as possible to save more time for future project topics.
+
+- **Assessment:** The initial content is relatively light, making it entirely possible to catch up with the planned schedule for the week.
