@@ -1,7 +1,7 @@
 ---
-title: "Event 2"
+title: "FCAJ Community Day: Conference Call"
 date: 2026-05-23
-weight: 1
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---

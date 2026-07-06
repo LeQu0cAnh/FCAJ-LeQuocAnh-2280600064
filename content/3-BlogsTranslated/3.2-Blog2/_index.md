@@ -1,7 +1,7 @@
 ---
-title: "Blog 2"
+title: " Building a secure B2C application with Amazon Cognito and Amazon Verified Permissions"
 date: 2026-06-16
-weight: 1
+weight: 2
 chapter: false
 pre: " <b> 3.2. </b> "
 ---

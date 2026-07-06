@@ -1,7 +1,7 @@
 ---
-title: "Event 3"
+title: "FCAJ Community Day: Mini meet up"
 date: 2026-06-06
-weight: 1
+weight: 3
 chapter: false
 pre: " <b> 4.3. </b> "
 ---

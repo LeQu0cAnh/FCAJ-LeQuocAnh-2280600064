@@ -1,7 +1,7 @@
 ---
-title: "Blog 2"
+title: "Xây dựng ứng dụng B2C an toàn với Amazon Cognito và Amazon Verified Permissions"
 date: 2026-06-16
-weight: 1
+weight: 2
 chapter: false
 pre: " <b> 3.2. </b> "
 ---
