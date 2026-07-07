@@ -6,9 +6,9 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-### [Blog 1 - Getting started with healthcare data lakes: Using microservices](3.1-Blog1/)
+### [Blog 1 - Trải nghiệm Amazon Nova Act: Tự động hóa UI bằng AI, không lo fix XPath](3.1-Blog1/)
 
-Blog này giới thiệu cách bắt đầu xây dựng data lake trong lĩnh vực y tế bằng cách áp dụng kiến trúc microservices. Bạn sẽ tìm hiểu vì sao data lake quan trọng trong việc lưu trữ và phân tích dữ liệu y tế đa dạng (hồ sơ bệnh án điện tử, dữ liệu xét nghiệm, thiết bị IoT y tế…), cách microservices giúp hệ thống linh hoạt, dễ mở rộng và dễ bảo trì hơn. Bài viết cũng hướng dẫn các bước khởi tạo môi trường, tổ chức pipeline xử lý dữ liệu, và đảm bảo tuân thủ các tiêu chuẩn bảo mật & quyền riêng tư như HIPAA.
+Blog này chia sẻ trải nghiệm thực tế về Amazon Nova Act, một dịch vụ AI Automation mới của AWS giúp xây dựng các Agent tự động tương tác trình duyệt thông qua câu lệnh ngôn ngữ tự nhiên tiếng Anh. Bài viết đi sâu phân tích cơ chế hoạt động bằng Học sâu tăng cường (Reinforcement Learning), hướng dẫn các bước lập trình hybrid (kết hợp Python SDK và AI lệnh) và phương pháp deploy mở rộng hạ tầng Fleet an toàn trên Cloud.
 
 ### [Blog 2 - Xây dựng ứng dụng B2C an toàn với Amazon Cognito và Amazon Verified Permissions](3.2-Blog2/)
 

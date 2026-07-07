@@ -6,9 +6,10 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-### [Blog 1 - Getting started with healthcare data lakes: Using microservices](3.1-Blog1/)
+### [Blog 1 - Experiencing Amazon Nova Act: AI-Powered UI Automation Without XPath Worries](3.1-Blog1/)
 
-This blog introduces how to start building a data lake in the healthcare sector by applying a microservices architecture. You will learn why data lakes are important for storing and analyzing diverse healthcare data (electronic medical records, lab test data, medical IoT devices…), how microservices help make the system more flexible, scalable, and easier to maintain. The article also guides you through the steps to set up the environment, organize the data processing pipeline, and ensure compliance with security & privacy standards such as HIPAA.
+This blog shares hands-on experience with Amazon Nova Act, a new AI Automation service by AWS that enables building Agents to interact with browsers using natural language in English. It details how the service leverages Reinforcement Learning, explains how to write hybrid code (combining Python SDK with AI commands), and covers secure deployment on cloud Fleet infrastructure.
+
 
 ### [Blog 2 - Building Secure B2C Applications with Amazon Cognito and Amazon Verified Permissions](3.2-Blog2/)
 
